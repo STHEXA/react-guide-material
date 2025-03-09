@@ -1,4 +1,7 @@
-const CounterResult = ({ state }) => {
+import { useCounter } from "../context/CounterProvider";
+
+const CounterResult = () => {
+  const state = useCounter();
   return <h3>{state}</h3>;
 };
 
