@@ -7,7 +7,7 @@ const Example = () => {
       console.log(res.data);
     };
     getUser();
-  }, []);
+  });
 };
 
 export default Example;
